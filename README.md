@@ -65,7 +65,9 @@ The AI is fed just 4 conditions: is it leaning left, leaning right, falling towa
 Just by running the simulation a few hundred times, the AI is able to very quickly approach the optimal matrix.
 
 
+<img width="1055" height="645" alt="image" src="https://github.com/user-attachments/assets/58730eb0-30e7-43bb-9eec-2ed220281fa1" />
 
+Whilst after more than a thousand trials, its able to improve significantly. 
 
 
 
