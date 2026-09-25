@@ -23,3 +23,15 @@ Now, all we have to do is: when the AI has to evaluate which decision (action) t
 
 > [!NOTE]
 > It doesnt matter if there is no single action with the highest value, as in that case the AI can choose any of the highest-value actions. It will simply eventually *learn* which action IS in fact the most important one in this same condition-combination.
+
+Thus say C1 and C3 are true, but C2 is not.
+```
+  A1   A2  A3
+C1 1   2   3
+C3 7   8   9
+
+```
+>[!TIP]
+>I removed the row containing C2 because C2 was false in this example, thus its elements wont impact the action we are taking and thus we can eliminate it for clarity. This can be done for ALL conditions that are false in any decision-making step.
+
+Now, we have to evaluate the importance of each action, to do that we just sum up all the values on the same column as the respective action. A1 is equal to 8 (1+7), A2 is 10 (2+8), whilst A3 is 12 (3+9).
