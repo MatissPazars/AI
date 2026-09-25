@@ -58,7 +58,11 @@ Say we have to teach an AI to balance a rod.
 The AI is fed just 4 conditions: is it leaning left, leaning right, falling towards left, falling towards right. In addition it is given just 3 actions: push it towards left, push it towards right, or just do nothing (the AI has its score be subtracted for too much actions taken).
 
 >[!TIP]
->If you want to, you can look up the files in this repository at the top, it includes even a video of the AI learning. 
+>If you want to, you can look up the files in this repository at the top.
+
+
+<img width="1306" height="740" alt="image" src="https://github.com/user-attachments/assets/32318d5a-9007-49fe-ba7e-a276b0a79065" />
+Just by running the simulation a few hundred times, the AI is able to very quickly approach the optimal matrix.
 
 
 
