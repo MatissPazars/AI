@@ -4,8 +4,10 @@ This project will be about not just using AI, but fully understanding and graspi
 
 
 
-# ACS
-## When I first wanted to make my own AI, I of course didn't really know how AIs worked but I still wanted to make my own one. The online tutorials and so on were all too complex for my brain, so I decided on making my own system. I dubbed it ACS (Actions-Conditions
+## ACS
+### Concept of ACS
+ 
+When I first wanted to make my own AI, I of course didn't really know how AIs worked but I still wanted to make my own one. The online tutorials and so on were all too complex for my brain, so I decided on making my own system. I dubbed it ACS (Actions-Conditions
 System). 
 
 Here is How it works: We make a matrix of values (all starting at say zero, so an zero matrix). We make conditions (the things the AI takes into consideration in its decision-making, boolean values) as the rows and the actions (the things the AI can choose to do) as the columns. You can switch the actions and conditions if you want to, just make sure that actions and conditions aren't on the same row/column and always remember how you place them. 
@@ -35,3 +37,31 @@ C3 7   8   9
 >I removed the row containing C2 because C2 was false in this example, thus its elements wont impact the action we are taking and thus we can eliminate it for clarity. This can be done for ALL conditions that are false in any decision-making step.
 
 Now, we have to evaluate the importance of each action, to do that we just sum up all the values on the same column as the respective action. A1 is equal to 8 (1+7), A2 is 10 (2+8), whilst A3 is 12 (3+9).
+From here, we get that A3 is the most important action here, due to 12 being the highest value for any action. 
+Thus action 3 is the chosen one. 
+
+### AI learning with ACS.
+Teaching an AI with ACS is extremely in fact simple. All we need is to set up this matrix of given actions and conditions, as well as we need to figure out how to score the AI. 
+
+Scoring an AI is done by evaluating the given environment that the AI is in and adding (or subtracting) points given that. For example say in chess-  we could add points to such an AI that decides to capture a piece, execute an checkmate, whilst subtracting points for loosing pieces, blundering and so on. 
+>[!WARNING]
+>Technically speaking ACS wont actually be that good for chess because chess requires thinking forward and evaluating a large amount of things / aspects, thus this was given only as an example. you can ofcourse still try to make a chess-bot using ACS, I simply wont recommend it as a first project.
+
+After each trial, if the current AI has atchieved an higher total score than the current record-holder, its variant of the matrix values becomes the standart. if Not, in the next trial / generation, the AI's matrix is reset to that of currently-best plus slight mutations in element values.
+
+This is literally it, just start an AI with a zero matrix (all values are equal to 0s), let it run and evaluate for a given amount of runs, if the run is better than the currently-best one then it becomes the *default* one, otherwise the next generation has its matrix be that of the best one but slightly randomly mutated.
+
+### Example of ACS in work.
+
+Say we have to teach an AI to balance a rod. 
+
+The AI is fed just 4 conditions: is it leaning left, leaning right, falling towards left, falling towards right. In addition it is given just 3 actions: push it towards left, push it towards right, or just do nothing (the AI has its score be subtracted for too much actions taken).
+
+>[!TIP]
+>If you want to, you can look up the files in this repository at the top, it includes even a video of the AI learning. 
+
+
+
+
+
+
