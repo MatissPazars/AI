@@ -69,5 +69,8 @@ Just by running the simulation a few hundred times, the AI is able to very quick
 
 Whilst after more than a thousand trials, its able to improve significantly. 
 
+<img width="1039" height="616" alt="image" src="https://github.com/user-attachments/assets/daa9c0c1-c378-4f7a-92a0-cb7de7d752f4" />
+Note how as the AI becomes better and better, it becomes exponencially harder and harder to make it better. 
+
 
 
