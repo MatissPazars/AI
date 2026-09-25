@@ -73,5 +73,6 @@ Whilst after more than a thousand trials, its able to improve significantly.
 Note how as the AI becomes better and better, it becomes exponentially harder and harder to make it better. 
 <img width="1046" height="592" alt="image" src="https://github.com/user-attachments/assets/271eeefb-9dd7-4346-9232-049993b565a0" />
 
-
+<img width="1316" height="608" alt="image" src="https://github.com/user-attachments/assets/7a540d08-ca39-4a6d-88e4-c97e1324e946" />
+As expected, it also works for a double pendulum (or any other). 
 
