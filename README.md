@@ -78,3 +78,6 @@ As expected, it also works for a double pendulum (or any other).
 
 What next? 
 Naturally ACS is NOT what is actually driving the modern most sophisticated AIs - not even close, they are driven by things like Q-learning, deep learning and so much more, the maths is much more elegant, complex and sophisticated. 
+Thus, we have to keep on learning and experimenting. 
+
+
