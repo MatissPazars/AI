@@ -76,3 +76,4 @@ Note how as the AI becomes better and better, it becomes exponentially harder an
 <img width="1316" height="608" alt="image" src="https://github.com/user-attachments/assets/7a540d08-ca39-4a6d-88e4-c97e1324e946" />
 As expected, it also works for a double pendulum (or any other). 
 
+What next? 
