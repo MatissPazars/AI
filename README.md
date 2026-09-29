@@ -81,3 +81,9 @@ Naturally ACS is NOT what is actually driving the modern most sophisticated AIs 
 Thus, we have to keep on learning and experimenting. 
 
 ## Q-Learning
+### The general idea is quite simple and noble: instead of trowing a dice and guessing if the move is right, what if we instead learned from our mistakes? 
+How to implement it? actually really simple - instead of mutating the OVERALL AI DNA each time, what if we only concentrated on the wrong parts? But how to know which parts are the ones that need improvements? quite simple - an move that needs improvements is a move which has an better-scoring alternative. simple as that. And to ensure the AI actually atchieves its learning from mistakes, we evaluate not its current position alone, but also forward it back: if the current state is good, improve the likeness of the move that leads to this one (i.e. - improve the desire to choose this outcome when prompted from the prior state).
+how it works in practice?
+Saay we have an AI learning to solve a simple maze: we score each tile that the AI can step its foot on. Each time the AI moves, we check if the change of tiles is an score improvement or not. if its an improvement - then this was a GOOD action and should be forwarded back as being *desired*, if not - the opposite happens and the AI wont choose this path again. 
+<img width="517" height="508" alt="image" src="https://github.com/user-attachments/assets/30dfc69c-beee-4b7e-97af-fb94b87f6040" />
+
