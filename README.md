@@ -85,5 +85,13 @@ Thus, we have to keep on learning and experimenting.
 How to implement it? actually really simple - instead of mutating the OVERALL AI DNA each time, what if we only concentrated on the wrong parts? But how to know which parts are the ones that need improvements? quite simple - an move that needs improvements is a move which has an better-scoring alternative. simple as that. And to ensure the AI actually atchieves its learning from mistakes, we evaluate not its current position alone, but also forward it back: if the current state is good, improve the likeness of the move that leads to this one (i.e. - improve the desire to choose this outcome when prompted from the prior state).
 how it works in practice?
 Saay we have an AI learning to solve a simple maze: we score each tile that the AI can step its foot on. Each time the AI moves, we check if the change of tiles is an score improvement or not. if its an improvement - then this was a GOOD action and should be forwarded back as being *desired*, if not - the opposite happens and the AI wont choose this path again. 
+
 <img width="517" height="508" alt="image" src="https://github.com/user-attachments/assets/30dfc69c-beee-4b7e-97af-fb94b87f6040" />
+
+As we can see on the maze, the *walls* are scored as -100 (so if the AI choose to move to them, its score will ofcourse be decreesed, thus it will learn that its an *bad* move and avoid it). Meanwhile all the paths are scored as zero - the AI currently doesnt know how good they are.
+
+<img width="521" height="522" alt="image" src="https://github.com/user-attachments/assets/b9d72f85-8334-4e8b-a50e-c0ca27a4aa2a" /> 
+
+Meanwhile after the AI has already explored and evaluated many of these tiles, it has already learned some patterns, specifically - which tiles are the best next ones to move to from each one, this is signaled by the arrow. 
+
 
