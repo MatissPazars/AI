@@ -94,5 +94,4 @@ As we can see on the maze, the *walls* are scored as -100 (so if the AI choose t
 
 Meanwhile after the AI has already explored and evaluated many of these tiles, it has already learned some patterns, specifically - which tiles are the best next ones to move to from each one, this is signaled by the arrow. If the AI steps on a tile which the game considers to be the better tile than the prior one (i.e. - an improvement in location), the AI *remembers* that this specific tile -> tile combo is an good choice and will seek to do it the next time too. 
 
-But whats next? 
 
