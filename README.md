@@ -5,7 +5,7 @@ This project will be about not just using AI, but fully understanding and graspi
 
 
 ## ACS
-### Concept of  ACS
+### Concept of ACS
  
 When I first wanted to make my own AI, I of course didn't really know how AIs worked but I still wanted to make my own one. The online tutorials and so on were all too complex for my brain, so I decided on making my own system. I dubbed it ACS (Actions-Conditions
 System). 
