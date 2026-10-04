@@ -55,7 +55,7 @@ This is literally it, just start an AI with a zero matrix (all values are equal 
 
 Say we have to teach an AI to balance a rod. 
 
-The AI is fed just 4 conditions: is it leaning left, leaning right, falling towards left, falling towards right. In addition it is given just 3 actions: push it towards left, push it towards right, or just do nothing (the AI has its score be subtracted for too much actions taken).
+The AI is fed just 4 conditions: is it leaning left, leaning right, falling towards left, falling towards right. In addition it is given just 3 actions: push it towards left, push it towards right, or just do nothing (the AI has its score be subtracted for too much actions taken) .
   
 >[!TIP]
 >If you want to, you can look up the files in this repository at the top.
