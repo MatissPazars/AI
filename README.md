@@ -7,7 +7,7 @@ This project will be about not just using AI, but fully understanding and graspi
 ## ACS
 ### Concept of ACS
  
-When I first wanted to make my own AI, I of course didn't really know how AIs worked but I still wanted to make my own one. The online tutorials and so on were all too complex for my brain, so I decided on making my own system. I dubbed it _ACS_ (Actions-Conditions System). 
+When I first wanted to make my own AI, I of course didn't really know how AIs worked but I still wanted to make my own one. The online tutorials and so on were all too complex for my brain, so I decided on making my own system. I dubbed it *ACS* (Actions-Conditions System). 
 
 Here is How it works: We make a matrix of values (all starting at say zero, so an zero matrix). We make conditions (the things the AI takes into consideration in its decision-making, boolean values) as the rows and the actions (the things the AI can choose to do) as the columns. You can switch the actions and conditions if you want to, just make sure that actions and conditions aren't on the same row/column and always remember how you place them. 
 ```
