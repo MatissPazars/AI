@@ -1,3 +1,6 @@
+
+
+
 # AI
 Learning about AI and making my own.
 This project will be about not just using AI, but fully understanding and grasping the behind the scenes of how AI works (NOT just LLMs) and trying to make my own AIs that learn, adapt and improve themselves. 
@@ -94,7 +97,11 @@ Meanwhile after the AI has already explored and evaluated many of these tiles, i
 
 Aditional features of Q-learning include learning rate (scaled from 0-1), which essencially mathematically means how much score is also changed for the states BEFORE the current one, scaling with (learning rate)^(how many steps away it is). Practically it measures how forward-thinking the AI is.
 
+
 An aditional is the exploration rate: what portion of the time will the AI just completely ignore what it has already learned to be the best decision from this state and just pick a random one. 
 
 <img width="1917" height="1078" alt="attels" src="https://github.com/user-attachments/assets/d0b113a7-45fd-481f-b138-beec866c0145" />
 This is a better implementation of the same idea, with better UI and larger size.
+
+
+https://github.com/user-attachments/assets/ce528fec-f6ad-483c-8d62-26985a6b8fc2
