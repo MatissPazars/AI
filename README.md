@@ -30,7 +30,7 @@ Thus say C1 and C3 are true, but C2 is not.
   A1   A2  A3
 C1 1   2   3
 C3 7   8   9
-
+ 
 ```
 >[!TIP]
 >I removed the row containing C2 because C2 was false in this example, thus its elements wont impact the action we are taking and thus we can eliminate it for clarity. This can be done for ALL conditions that are false in any decision-making step.
@@ -93,4 +93,7 @@ As we can see on the maze, the *walls* are scored as -100 (so if the AI choose t
 
 Meanwhile after the AI has already explored and evaluated many of these tiles, it has already learned some patterns, specifically - which tiles are the best next ones to move to from each one, this is signaled by the arrow. If the AI steps on a tile which the game considers to be the better tile than the prior one (i.e. - an improvement in location), the AI *remembers* that this specific tile -> tile combo is an good choice and will seek to do it the next time too. 
 
+Aditional features of Q-learning include learning rate (scaled from 0-1), which essencially mathematically means how much score is also changed for the states BEFORE the current one, scaling with (learning rate)^(how many steps away it is). Practically it measures how forward-thinking the AI is.
+
+An aditional is the exploration rate: what portion of the time will the AI just completely ignore what it has already learned to be the best decision from this state and just pick a random one. 
 
