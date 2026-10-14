@@ -37,7 +37,7 @@ C3 7   8   9
 
 Now, we have to evaluate the importance of each action, to do that we just sum up all the values on the same column as the respective action. A1 is equal to 8 (1+7), A2 is 10 (2+8), whilst A3 is 12 (3+9).
 From here, we get that A3 is the most important action here, due to 12 being the highest value for any action. 
-Thus action 3 is the chosen one. 
+Thus action 3 is the chosen one. Mathematically, this is just equal to false conditions being 0 and true conditions being 1, and by simply multiplying the conditions by all their elements. 
 
 ### AI learning with ACS.
 Teaching an AI with ACS is extremely in fact simple. All we need is to set up this matrix of given actions and conditions, as well as we need to figure out how to score the AI. 
