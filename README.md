@@ -96,3 +96,5 @@ Aditional features of Q-learning include learning rate (scaled from 0-1), which 
 
 An aditional is the exploration rate: what portion of the time will the AI just completely ignore what it has already learned to be the best decision from this state and just pick a random one. 
 
+<img width="1917" height="1078" alt="attels" src="https://github.com/user-attachments/assets/d0b113a7-45fd-481f-b138-beec866c0145" />
+This is a better implementation of the same idea, with better UI and larger size.
